@@ -1,34 +1,34 @@
 # IZ Converter
 
-> A lightweight Windows utility for converting files — fast, simple, and built by **Izzi Developers Inc.**
+> A fast, fully offline video & GIF converter for Windows — built by **Izzi Developers Inc.**
 
 <p align="left">
   <img src="https://img.shields.io/badge/version-6.4-blue" alt="Version">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4" alt="Platform">
-  <img src="https://img.shields.io/badge/status-active-success" alt="Status">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/USERNAME/REPO" alt="Latest Release"></a>
-  <a href="../../issues"><img src="https://img.shields.io/github/issues/USERNAME/REPO" alt="Issues"></a>
+  <img src="https://img.shields.io/badge/offline-100%25-success" alt="Offline">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
 </p>
 
 ---
 
-## 📸 Screenshots
-
-> Drop your screenshots here for maximum visual impact:
+## 📸 Screenshot
 
 <p align="center">
-  <img src="docs/screenshot-main.png" alt="IZ Converter main window" width="700">
+  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1131?hash=96ceb3" alt="IZ Converter — Functional Configurations" width="760">
 </p>
 
 ---
 
 ## ✨ Features
 
-- 🚀 **Fast & lightweight** — converts files in seconds without bloating your system
-- 🪟 **Native Windows app** — clean, familiar interface built for Windows 10/11
-- 🔄 **Wide format support** — handles the formats you actually use day-to-day
-- 📦 **One-click install** — standard Windows setup wizard, no fuss
-- 🛡️ **Safe & offline** — no telemetry, no nonsense
+| Feature | What it does |
+|---|---|
+| 🧭 **Straightforward Navigation** | Uncomplicated layout configurations prioritize simple navigation paths, keeping operations functional for general conversion goals. |
+| 🎞️ **Multi-Format Engine** | Supports a broad range of standard visual containers — **MP4, MKV, AVI, WebM**, and custom web-optimized **GIF** files. |
+| ⚡ **Concurrent Transcoding** | Batch threads let you process multiple files simultaneously without interrupting background operations. |
+| 🚀 **GPU Acceleration** | Interfaces with **NVENC**, **AMF**, and **Intel Quick Sync** to offload heavy encoding from your CPU. |
+| 🔌 **Zero Cloud Dependencies** | Runs entirely on your local hardware — no telemetry, no internet checks, no remote servers. |
+| 🖥️ **Execution Console Logging** | Line-by-line technical feedback so you can audit conversion metrics and debug configurations. |
 
 ---
 
@@ -43,6 +43,7 @@
 ### Requirements
 
 - **OS:** Windows 10 or Windows 11 (64-bit recommended)
+- **GPU (recommended):** NVIDIA (NVENC), AMD (AMF), or Intel (Quick Sync) for hardware acceleration
 - **Disk space:** ~100 MB
 - No additional runtime dependencies needed
 
@@ -51,12 +52,21 @@
 ## 🚀 Quick Start
 
 1. Open IZ Converter.
-2. Drag & drop your files (or click **Add Files**).
-3. Pick your output format.
-4. Hit **Convert**.
-5. Done — your files are ready 🎉
+2. Drag & drop your video files (or click **Add Files**).
+3. Pick your output format — **MP4, MKV, AVI, WebM, or GIF**.
+4. Toggle GPU acceleration if your hardware supports it.
+5. Hit **Convert** and watch the console log stream in real time.
+6. Done — your files are ready 🎉
 
-> 💡 **Tip:** Right-click any file in Windows Explorer and look for "Convert with IZ Converter" if the option is enabled during install.
+> 💡 **Tip:** Drop multiple files at once to take advantage of concurrent transcoding — IZ Converter will process them in parallel batches.
+
+---
+
+## 🎯 Supported Formats
+
+- **Video:** MP4 · MKV · AVI · WebM
+- **Animated:** GIF (web-optimized)
+- **Hardware encoders:** NVIDIA NVENC · AMD AMF · Intel Quick Sync
 
 ---
 
@@ -66,7 +76,8 @@
 |---|---|
 | SmartScreen blocks the installer | Click *More info* → *Run anyway* |
 | App won't launch | Right-click the shortcut → *Run as administrator* |
-| Converted file looks wrong | Check the [wiki](../../wiki) for supported format combinations |
+| Conversion is slow | Enable GPU acceleration if your hardware supports NVENC / AMF / Quick Sync |
+| Output GIF is huge | Use the web-optimized GIF preset in the output settings |
 
 Still stuck? [Open an issue](../../issues/new) — we read every one.
 
@@ -74,7 +85,9 @@ Still stuck? [Open an issue](../../issues/new) — we read every one.
 
 ## 📝 Changelog (v6.4)
 
-- ✨ Faster conversion engine
+- ⚡ Improved concurrent transcoding engine — better throughput on large batches
+- 🎮 Expanded GPU acceleration paths (NVENC / AMF / Quick Sync)
+- 📟 New execution console logging for real-time conversion feedback
 - 🐛 Fixed rare crash on large batches
 - 🎨 Refreshed UI
 - 🔧 Misc. stability improvements
@@ -94,15 +107,12 @@ Bug reports, feature requests, and pull requests are welcome! Please [open an is
 Built with ❤️ by **Izzi Developers Inc.**
 
 - 🐛 Issues: [GitHub Issues](../../issues)
-- 💼 Business inquiries: *(add your email here)*
+- ✉️ Email: [izzidevelopers@hotmail.com](mailto:izzidevelopers@hotmail.com)
 
 ---
 
 ## 📄 License
 
 © 2026 Izzi Developers Inc. — Released under the [MIT License](LICENSE).
-
-```
-
 
 <p align="center"><sub>Made with care — not AI-slop filler ✨</sub></p>
