@@ -3,7 +3,7 @@
 > A fast, fully offline video & GIF converter for Windows — built by **Izzi Developers Inc.**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/version-6.4-blue" alt="Version">
+  <img src="https://img.shields.io/badge/version-6.5-blue" alt="Version">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4" alt="Platform">
   <img src="https://img.shields.io/badge/offline-100%25-success" alt="Offline">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
@@ -29,12 +29,15 @@
 | 🚀 **GPU Acceleration** | Interfaces with **NVENC**, **AMF**, and **Intel Quick Sync** to offload heavy encoding from your CPU. |
 | 🔌 **Zero Cloud Dependencies** | Runs entirely on your local hardware — no telemetry, no internet checks, no remote servers. |
 | 🖥️ **Execution Console Logging** | Line-by-line technical feedback so you can audit conversion metrics and debug configurations. |
+| ▶️ **YouTube Downloader** | Download videos and audio directly from YouTube with a single click. |
+| 🧲 **Torrent Downloader** | Download files over BitTorrent right inside IZ Converter. |
+| 🎨 **Fully Upgraded UI** | Complete interface redesign — cleaner, more modern, and easier to use. |
 
 ---
 
 ## 📥 Installation
 
-1. Head over to the [**Releases page**](../../releases/latest) and download **IZConverterSetup(6.4).exe**.
+1. Head over to the [**Releases page**](../../releases/latest) and download **IZConverterSetup(6.5).exe**.
 2. Double-click the downloaded `.exe` to launch the installer.
 3. If Windows Defender SmartScreen pops up, click **"More info" → "Run anyway"** (the app isn't digitally signed yet).
 4. Walk through the setup wizard.
@@ -44,7 +47,7 @@
 
 - **OS:** Windows 10 or Windows 11 (64-bit recommended)
 - **GPU (recommended):** NVIDIA (NVENC), AMD (AMF), or Intel (Quick Sync) for hardware acceleration
-- **Disk space:** ~100 MB
+- **Disk space:** ~989 MB (1 GB recommended)
 - No additional runtime dependencies needed
 
 ---
@@ -66,6 +69,7 @@
 
 - **Video:** MP4 · MKV · AVI · WebM
 - **Animated:** GIF (web-optimized)
+- **Downloading:** YouTube · Torrent (BitTorrent)
 - **Hardware encoders:** NVIDIA NVENC · AMD AMF · Intel Quick Sync
 
 ---
@@ -83,7 +87,14 @@ Still stuck? [Open an issue](../../issues/new) — we read every one.
 
 ---
 
-## 📝 Changelog (v6.4)
+## 📝 Changelog (v6.5)
+
+- ▶️ **New:** YouTube downloader — grab videos and audio in one click
+- 🧲 **New:** Torrent downloader — download files via BitTorrent
+- 🎨 Fully upgraded UI — complete redesign for a cleaner, more modern experience
+- 📦 Installer now ~309 MB download / ~989 MB installed
+
+### v6.4
 
 - ⚡ Improved concurrent transcoding engine — better throughput on large batches
 - 🎮 Expanded GPU acceleration paths (NVENC / AMF / Quick Sync)
