@@ -15,6 +15,7 @@
 
 <p align="center">
   <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1193?hash=1d7821" alt="IZ Converter — Functional Configurations" width="760">
+  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1194?hash=98be31" alt="IZ Converter — Functional Configurations" width="760">
 </p>
 
 ---
