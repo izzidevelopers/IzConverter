@@ -14,10 +14,8 @@
 ## Screenshot
 
 <p align="center">
-  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1193?hash=1d7821" alt="IZ Converter - Functional Configurations" width="760">
-  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1194?hash=98be31" alt="IZ Converter - Functional Configurations" width="760">
-  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1195?hash=1625e3" alt="IZ Converter - Functional Configurations" width="760">
-  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1196?hash=2244cb" alt="IZ Converter - Functional Configurations" width="760">
+  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1275?hash=d964cf" alt="IZ Converter - Functional Configurations" width="760">
+  <img src="https://clean-jere-aharpro-ce2ae165.koyeb.app/stream/1276?hash=3d0b39" alt="IZ Converter - Functional Configurations" width="760">
 </p>
 
 ---
